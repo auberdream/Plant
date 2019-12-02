@@ -28,7 +28,9 @@
   "bugs": {
     "url": "https://github.com/elliewem/Plant/issues"
   },
-  "dependencies": {},
+  "dependencies": {
+    "styled-components": "^4.4.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@storybook/addon-actions": "^5.2.8",
