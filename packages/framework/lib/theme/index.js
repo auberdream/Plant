@@ -3,6 +3,7 @@ const duskyPurple = "#947ee5";
 const blueSky = "#75c3ff";
 const brightBlue = "#82f0ff";
 const brightGreen = "#89ffdf";
+const offBlack = "#1A1A1A";
 
 export default {
   main: {
@@ -15,9 +16,12 @@ export default {
     base: blueSky
   },
   highlightPrimary: {
-    main: brightBlue
+    base: brightBlue
   },
   highlightSecondary: {
-    main: brightGreen
+    base: brightGreen
+  },
+  black: {
+    base: offBlack
   }
 };
