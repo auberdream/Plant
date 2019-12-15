@@ -5,7 +5,7 @@
   "author": "Ellie Wem <ellie.wem@rainbird.ai>",
   "homepage": "https://github.com/elliewem/Plant#readme",
   "license": "ISC",
-  "main": "lib/framework.js",
+  "main": "index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"

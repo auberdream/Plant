@@ -6,7 +6,7 @@ const brightGreen = '#89ffdf';
 const offBlack = '#1A1A1A';
 
 export default {
-  main: {
+  primary: {
     base: mutedVioletRed,
   },
   secondary: {
