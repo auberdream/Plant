@@ -29,6 +29,8 @@
     "url": "https://github.com/elliewem/Plant/issues"
   },
   "dependencies": {
+    "@storybook/react": "^5.2.8",
+    "react": "^16.12.0",
     "styled-components": "^4.4.1"
   },
   "devDependencies": {
@@ -36,7 +38,6 @@
     "@storybook/addon-actions": "^5.2.8",
     "@storybook/addon-links": "^5.2.8",
     "@storybook/addons": "^5.2.8",
-    "@storybook/react": "^5.2.8",
     "babel-loader": "^8.0.6"
   }
 }

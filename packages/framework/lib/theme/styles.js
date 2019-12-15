@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const SwatchGrid = styled.div`
   display: grid;
@@ -7,7 +7,7 @@ export const SwatchGrid = styled.div`
 
 export const Swatch = styled.div`
   align-items: flex-end;
-  background-color: ${props => props.backgroundColor};
+  background-color: ${(props) => props.backgroundColor};
   display: flex;
   height: 250px;
   margin: 20px;
