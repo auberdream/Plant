@@ -6,6 +6,8 @@
     "src/*"
   ],
   "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
     "eslint": "^6.7.2",
     "eslint-config-airbnb": "18.0.1",
     "eslint-config-prettier": "^4.0.0",
@@ -29,7 +31,22 @@
   "husky": {
     "hooks": {
       "pre-commit": "yarn lint",
-      "commit-msg": ""
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
+    "rules": {
+      "scope-case": [
+        2,
+        "always",
+        [
+          "lowerCase",
+          "upper-case"
+        ]
+      ]
     }
   }
 }
