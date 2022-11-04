@@ -29,7 +29,7 @@
     "url": "https://github.com/elliewem/Plant/issues"
   },
   "dependencies": {
-    "@storybook/react": "^5.2.8",
+    "@storybook/react": "^6.5.0",
     "react": "^16.12.0",
     "styled-components": "^4.4.1"
   },
